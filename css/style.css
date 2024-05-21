@@ -1,0 +1,547 @@
+
+#flexdir_row_shop1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kerajinan_tangan,
+.plakat {
+    width: 100px; /* Sesuaikan dengan lebar kursi */
+    height: 100px; /* Sesuaikan dengan tinggi kursi */
+    margin-bottom: 20px; /* Jarak antar kursi */
+    background-color: #ccc; /* Warna latar belakang kursi */
+}
+
+.plakat {
+    order: 1; /* Mengatur urutan untuk memindahkan plakat ke bawah */
+}
+#lihatKatalogBtn:hover {
+    background-color: #8c734b; /* Warna background saat hover */
+    border-color: #8c734b; /* Warna border saat hover */
+    color: white; /* Warna teks saat hover */
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; /* Efek transisi */
+}#header{
+    display: flex;
+}
+#header_logo{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    font-family: 'Work Sans', sans-serif;
+}
+#header_logo_detail{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Work Sans', sans-serif;
+    justify-content: center;
+}
+#header_logo_checkout{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Work Sans', sans-serif;
+    justify-content: center;
+    width: 55%;
+    margin: auto;
+}
+#content{
+    position: relative;
+    background-color: transparent;
+    z-index: 10;
+    margin-top: 120px;
+}
+#content_main{
+    position: relative;
+    background-color: transparent;
+    z-index: 10;
+    margin-top: 50px;
+}
+#content_main2{
+    position: relative;
+    background-color: transparent;
+    z-index: 10;
+    margin-top: 50px;
+}
+#content_footer{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    position: relative;
+    z-index: 10;
+    background-color: white;
+}
+#content_1{
+    margin-left: 220px;
+}
+#content_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+#content_2s{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#content_3{
+    color: #ffffff;
+    width: 500px;
+    padding-left: 20px;
+    margin-top: 20px;
+    padding-top: 50px;
+    background-color: #b98961;
+}
+#content_4{
+    margin-top: 20px;
+    Position: relative;
+    width: 300px;
+    height: 410px;
+    background-size: 5%;
+    background-image: url(../img/kersaputih.png);
+    max-width: 100%;
+    background-size:100% auto;
+}
+#flexdir_row{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+}
+#flexdir_row_chk{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+}
+#flexdir_row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#flexdir_row3{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+}
+#flexdir_row4{
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    justify-content: flex-start;
+}
+#search{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+}
+#search2{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+}
+#navBarSearchForm input[type=text]{width:430px !important;}
+#color_white{
+    color: white;
+}
+#color_yellow{
+    color: #876a26;
+}
+#color_gray{
+    color: #54575c;
+}
+#background_img{
+    margin: 0px auto;
+    Position: relative;
+    width: 1920px;
+    height: 725px;
+    background-size: 100%;
+    background-image: url(../img/Kersa.png);
+    max-width: 100%;
+    background-size:100% auto;
+}
+#content_5{
+    margin-top: 20px;
+    Position: relative;
+    width: 250px;
+    height: 300px;
+    background-image: url(../img/kersa1.jpg);
+    max-width: 100%;
+    background-size:100% auto;
+}
+#content_6{
+    margin-top: 20px;
+    Position: relative;
+    width: 250px;
+    height: 350px;
+    background-image: url(../img/kersa2.jpg);
+    max-width: 100%;
+    background-size:100% auto;
+}
+#content_7{
+    margin-top: 20px;
+    Position: relative;
+    width: 250px;
+    height: 350px;
+    background-image: url(../img/kersa3.jpg);
+    max-width: 100%;
+    background-size:100% auto;
+}
+#content_last{
+    position: relative;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/culture1.jpg);
+    max-width: 100%;
+    background-size:100% auto;
+    opacity: 0.8;
+}
+#content_last2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: darkgrey;
+    z-index: 10;
+    width: 100%;
+    height: 400px;
+    max-width: 100%;
+    background-size:100% auto;
+    opacity: 0.8;
+}
+#flexdir_column{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+#content_8{
+    position: relative;
+    background-color: transparent;
+    z-index: 10;
+    margin-top: 280px;
+}
+#content_8_shop{
+    position: relative;
+    background-color: transparent;
+    z-index: 10;
+    margin-top: 100px;
+}
+#content_subs{
+    position: relative;
+    background-color: transparent;
+    z-index: 10;
+    height: 550px;
+}
+#real_footer{
+    background-color: #54575c;
+    text-align: center;
+}
+::placeholder{
+    color: #d6d4ce;
+}
+#div_gambar{
+    margin-top: 20px;
+    Position: relative;
+    width: 400px;
+    height: 500px;
+    background-image: url(../img/loginrev.png);
+    max-width: 100%;
+    background-size:100% auto;
+    opacity: 0.9;
+}
+#flexdir_row_login{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    padding-top: 70px;
+    justify-content: center;
+}
+#div_form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    Position: relative;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    max-width: 100%;
+    background-size:100% auto;
+    justify-content: center;
+}
+#back_sale{
+    margin: 0px auto;
+    Position: relative;
+    width: 1920px;
+    height: 725px;
+    background-size: 100%;
+    background-image: url();
+    max-width: 100%;
+    background-size:100% auto;
+    opacity: 1;
+}
+#flexdir_row_shop1{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    justify-content: center;
+    margin-top: 20px;
+}
+#flexdir_column_shop1{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    justify-content: center;
+}
+#kursi_1{
+    margin-top: 20px;
+    Position: relative;
+    width: 250px;
+    height: 340px;
+    background-image: url(../img/kersa1.jpg);
+    max-width: 100%;
+    background-size:100% auto;
+}
+#kursi_1_detail{
+    Position: relative;
+    width: 400px;
+    height: 390px;
+    background-image: url(../img/KERSA.jpg);
+    max-width: 100%;
+    background-size:80% auto;
+    margin-top: -35px;
+}
+#kursi_2{
+    margin-top: 20px;
+    Position: relative;
+    width: 250px;
+    height: 350px;
+    background-image: url(../img/kersa2.jpg);
+    max-width: 100%;
+    background-size:100% auto;
+}
+#kursi_2_chk{
+    Position: relative;
+    width: 200px;
+    height: 130px;
+    background-image: url(../img/produk2.jpg);
+    max-width: 100%;
+    background-size:100% auto;
+}
+#kursi_3{
+    margin-top: 20px;
+    Position: relative;
+    width: 250px;
+    height: 350px;
+    background-image: url(../img/kersa3.jpg);
+    max-width: 100%;
+    background-size:100% auto;
+}
+#kursi_4{
+    margin-top: 20px;
+    Position: relative;
+    width: 250px;
+    height: 300px;
+    background-image: url(../img/kersa4.jpg);
+    max-width: 100%;
+    background-size:100% auto;
+}
+#kursi_5{
+    margin-top: 20px;
+    Position: relative;
+    width: 250px;
+    height: 340px;
+    background-image: url(../img/kersa5.jpg);
+    max-width: 100%;
+    background-size:100% auto;
+}
+#kursi_5_detail{
+    Position: relative;
+    width: 400px;
+    height: 390px;
+    background-image: url(../img/KERSA.jpg);
+    max-width: 100%;
+    background-size:80% auto;
+    margin-top: -35px;
+}
+
+#content_shop{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 100px;
+}
+#image1{
+    width: 200px;
+    height: 150px;
+    max-width: 100%;
+    background-size: 100% auto;
+    background-image: url(../img/amazon.png);
+    margin-top: 50px;
+}
+#image2{
+    width: 200px;
+    height: 150px;
+    max-width: 100%;
+    background-size: 100% auto;
+    background-image: url(../img/mastercard.png);
+}
+#image3{
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+    background-size: 100% auto;
+    background-image: url(../img/visa-logo.png);
+    margin-top: -50px;
+}
+#image4{
+    width: 200px;
+    height: 70px;
+    max-width: 100%;
+    background-size: 100% auto;
+    background-image: url(../img/paypal.png);
+    margin-top: 60px;
+    margin-left: 50px;
+}
+hr {
+    width: 40%;               
+    background-color: #454a46;
+    height: 5px !important;
+  }
+  .testimonials-clean {
+    color:#313437;
+    background-color:#e0c48cc2;
+  }
+  
+  .testimonials-clean p {
+    color:#303233;
+  }
+  
+  .testimonials-clean h2 {
+    font-weight:bold;
+    margin-bottom:30px;
+    padding-top:30px;
+    color:inherit;
+  }
+  
+  @media (max-width:767px) {
+    .testimonials-clean h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+  }
+  
+  .testimonials-clean .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto;
+  }
+  
+  .testimonials-clean .intro p {
+    margin-bottom:0;
+  }
+  
+  .testimonials-clean .people {
+    padding:50px 0 20px;
+  }
+  
+  .testimonials-clean .item {
+    margin-bottom:32px;
+  }
+  
+  @media (min-width:768px) {
+    .testimonials-clean .item {
+      height:220px;
+    }
+  }
+  
+  .testimonials-clean .item .box {
+    padding:30px;
+    background-color:#fff;
+    position:relative;
+  }
+  
+  .testimonials-clean .item .box:after {
+    content:'';
+    position:absolute;
+    left:30px;
+    bottom:-24px;
+    width:0;
+    height:0;
+    border:15px solid transparent;
+    border-width:12px 15px;
+    border-top-color:#fff;
+  }
+  
+  .testimonials-clean .item .author {
+    margin-top:28px;
+    padding-left:25px;
+  }
+  
+  .testimonials-clean .item .name {
+    font-weight:bold;
+    margin-bottom:2px;
+    color:inherit;
+  }
+  
+  .testimonials-clean .item .title {
+    font-size:13px;
+    color:#303233;
+  }
+  
+  .testimonials-clean .item .description {
+    font-size:15px;
+    margin-bottom:0;
+  }
+  
+  .testimonials-clean .item img {
+    max-width:40px;
+    float:left;
+    margin-right:12px;
+    margin-top:-5px;
+  }
+  .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#flexdir_row3 {
+    display: flex;
+    justify-content: center; /* Untuk membuat konten menjadi rata tengah */
+}
+
+.content_2 {
+    text-align: center; /* Untuk membuat teks menjadi rata tengah di setiap div content_2 */
+    margin: 40px; /* Untuk memberikan sedikit jarak antar elemen */
+}
+.content_2:first-child {
+    margin-top: 20; /* Menghilangkan margin atas untuk elemen pertama */
+}
+#kursi_6{
+    margin-top: 20px;
+    Position: relative;
+    width: 250px;
+    height: 340px;
+    background-image: url(../img/kersa6.jpg);
+    max-width: 100%;
+    background-size:100% auto;
+}
+#kursi_7{
+    margin-top: 20px;
+    Position: relative;
+    width: 250px;
+    height: 340px;
+    background-image: url(../img/kersa7.jpg);
+    max-width: 100%;
+    background-size:100% auto;
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KerSa Souvenir</title>
+    <link rel="icon" href="img/KERSA.jpg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"/>
+    <style>
+        body {
+            background-color: #e0c48c;
+            color: #6c757d;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #343a40;
+        }
+
+        p {
+            color: #6c757d;
+        }
+
+        .contact-link {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .contact-icon {
+            font-size: 40px;
+            padding: 20px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            background-color: #fff;
+            transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+        }
+
+        .facebook-icon {
+            color: #3b5998;
+        }
+
+        .whatsapp-icon {
+            color: #25d366;
+        }
+
+        .instagram-icon {
+            color: #e1306c;
+        }
+
+        .contact-icon:hover {
+            transform: scale(1.2);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .btn-custom {
+            background-color: #e0c48c;
+            color: #fff;
+            border: 2px solid #fff;
+            padding: 10px 20px;
+            border-radius: 25px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .btn-custom:hover {
+            background-color: #d1af75;
+            transform: translateY(-3px);
+        }
+
+        .footer {
+            background-color: #fff;
+            color: #343a40;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer a {
+            color: #e0c48c;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer a:hover {
+            color: #d1af75;
+        }
+
+        .animated-icon {
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-20px);
+            }
+            60% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1>Contact Us</h1>
+        <p>Follow us on social media or contact us via WhatsApp</p>
+        <div class="row justify-content-center">
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="https://www.facebook.com/share/R2h2eRhRfZpeLyPY/?mibextid=LQQJ4d" target="_blank" class="contact-link">
+                    <div class="contact-icon facebook-icon animated-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <p>Facebook</p>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="https://wa.me/6281220395995" target="_blank" class="contact-link">
+                    <div class="contact-icon whatsapp-icon animated-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <p>WhatsApp</p>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <a href="https://www.instagram.com/kersa.kerajinansunda?igsh=Z2Fvdmo4bmw5OGs5" target="_blank" class="contact-link">
+                    <div class="contact-icon instagram-icon animated-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <p>Instagram</p>
+                </a>
+            </div>
+        </div>
+        <button class="btn btn-custom mt-4" onclick="alert('Thank you for contacting us!')">Send Message</button>
+    </div>
+    <div class="footer text-center">
+        <p>&copy; 2024 KerSa Souvenir | Follow us on 
+            <a href="https://www.facebook.com/share/R2h2eRhRfZpeLyPY/?mibextid=LQQJ4d" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/6281220395995" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/kersa.kerajinansunda?igsh=Z2Fvdmo4bmw5OGs5" target="_blank"><i class="fab fa-instagram"></i></a>
+        </p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const links = document.querySelectorAll('.contact-link');
+            links.forEach(link => {
+                link.addEventListener('click', function() {
+                    alert('Anda akan diarahkan ke halaman ' + this.querySelector('p').textContent);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
